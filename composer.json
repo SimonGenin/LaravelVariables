@@ -1,12 +1,11 @@
 {
     "name": "simongenin/laravelvariables",
-    "description": ":description",
+    "description": ":Refactor variables that are meant to be global out of your source code",
     "license": "MIT",
     "authors": [
         {
             "name": "Simon Genin",
-            "email": "simongenin15@gmail.com",
-            "homepage": "author homepage"
+            "email": "simongenin15@gmail.com"
         }
     ],
     "homepage": "https://github.com/simongenin/laravelvariables",
