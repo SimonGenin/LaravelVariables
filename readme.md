@@ -19,6 +19,12 @@ Via Composer
 $ composer require simongenin/laravelvariables
 ```
 
+Publish the config file were your global variables will live
+
+```bash
+$ php artisan vendor:publish --tag=variables.config
+```
+
 ## Usage
 
 It does the same thing as the *config* helper, with more ways to call it. 
