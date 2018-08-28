@@ -7,6 +7,10 @@
 
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
 
+## Note
+
+This is my first package.
+
 ## Installation
 
 Via Composer
@@ -23,9 +27,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 
 ## Testing
 
-``` bash
-$ composer test
-```
+Unwritten as now. 
 
 ## Contributing
 
