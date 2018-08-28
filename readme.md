@@ -91,7 +91,7 @@ $cost = $caller->subscriptionYearly();
  * Same, but partly method call name and partly arguments
  */
 $caller = new SimonGenin\LaravelVariables\LaravelVariables();
-$cost = $caller->subscriptionYearly();
+$cost = $caller->subscription('yearly');
 
 /**
  * The two last methods are fancy, but a hell regarding project management.
