@@ -1,0 +1,41 @@
+{
+    "name": "simongenin/laravelvariables",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Genin",
+            "email": "simongenin15@gmail.com",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/simongenin/laravelvariables",
+    "keywords": ["Laravel", "LaravelVariables"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimonGenin\\LaravelVariables\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SimonGenin\\LaravelVariables\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimonGenin\\LaravelVariables\\LaravelVariablesServiceProvider"
+            ],
+            "aliases": {
+                "LaravelVariables": "SimonGenin\\LaravelVariables\\Facades\\LaravelVariables"
+            }
+        }
+    }
+}
