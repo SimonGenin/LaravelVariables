@@ -5,7 +5,7 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+Refactor variables that are meant to be global out of your source code.
 
 ## Note
 
@@ -108,7 +108,7 @@ $cost = $caller->subscription('yearly');
 
 ## License
 
-MIT. Please see the [license file](license.md) for more information.
+MIT
 
 [ico-version]: https://img.shields.io/packagist/v/simongenin/laravelvariables.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/simongenin/laravelvariables.svg?style=flat-square
