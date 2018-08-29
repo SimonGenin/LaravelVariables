@@ -29,9 +29,9 @@ $ php artisan vendor:publish --tag=variables.config
 
 It does the same thing as the *config* helper, with more ways to call it. 
 
-The goal here was to have a strict seperation for varaibles that are global, but don't belong in another configuration file.
+The goal here was to have a strict separation for variables that are global, but don't belong in another configuration file.
 
-Once installed, you will have a new configuration file, called "variables.php". Just like any other config file, you can define many values by using nested array.
+Once installed, you will have a new configuration file, called "variables.php". Just like any other config file, you can define many values by using nested arrays.
 
 Here's an exemple of what it could be used for:
 
